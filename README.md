@@ -16,26 +16,11 @@ This project detects human emotions in real-time using facial expressions captur
 - pip
 - Virtual environment (optional)
 
-### Setup
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/realtime-emotion-detection.git
-    cd realtime-emotion-detection
-    ```
-2. Create and activate a virtual environment:
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
-3. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
 
 ## Usage
 Start the emotion detection application:
 ```bash
-python main.py
+python realtimedetection.py
 ```
 Ensure your webcam is connected. The application will start the live video feed and display detected emotions in real-time.
 
@@ -61,5 +46,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgements
 - Thanks to the open-source community for providing valuable resources and tools.
-- Thanks to the [FER2013 dataset](https://www.kaggle.com/datasets/deadskull7/fer2013) for providing the dataset used in this project.
+- Thanks to the [FER2013 dataset](https://www.kaggle.com/datasets/msambare/fer2013) for providing the dataset used in this project.
 
